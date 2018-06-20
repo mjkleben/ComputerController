@@ -1,4 +1,3 @@
-
 import subprocess
 import re
 import time
@@ -680,18 +679,16 @@ def ConsoleLogString(string):
 
     return real_output
 #------------------------------------------------------------------------------------------------
-
-
 #AUTHENTICATE FIREBASE AND LOGIN
 config = {
-  "apiKey": "AIzaSyCkpaEJfQBZh1aBufckYMPjI1hiktwsKlA",
-  "authDomain": "database-8a74e.firebaseapp.com",
-  "databaseURL": "https://database-8a74e.firebaseio.com",
-  "storageBucket": "database-8a74e.appspot.com"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "storageBucket": ""
 }
 
-email = "databaseHost69@gmail.com"
-password = "123456database"
+email = "ADD FIREBASE EMAIL HERE"
+password = "ADD FIREBASE PASSWORD HERE"
 firebase = initialize_app(config)
 
 # Get a reference to the auth service
